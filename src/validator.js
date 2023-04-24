@@ -14,11 +14,11 @@ const validator = (ccNumber) => {
             {
                 if ((currentDigit *= 2) > 9)
                 {
-                    // Separate the number into component parts and then add them together.
+                    // Separa os números acima de 9 em 2 componentes e soma os dois
                     let trailingNumber = currentDigit % 10;
                     let firstNumber = parseInt(currentDigit / 10);
 
-                    // Se o resultado for maior que 10, soma os dois números do resultado (ex: 1+0 = 1)
+                    // soma os dois números do resultado (ex: 1+0 = 1)
                     currentDigit = firstNumber + trailingNumber;
                 }
             }
@@ -27,21 +27,21 @@ const validator = (ccNumber) => {
         }
     }
     else {
-        /** Traverse the whole credit card number.
-         *  Starts at the end of the number and begins doubling from the second-to-last number. This fixes the case for odd-numbered length credit card numbers, like AMEX cards.
+        /** Percorre todo o número d CC.
+         *  Depois começa a dobrar a partir do primeiro número. Esse é o caso de CC de 15 dígitos.
         */
         for(let i = length - 1 ; i >= 0; i--)
         {
             let currentDigit = parseInt(ccNumber[i]);
-            if ((i - 1) % 2 == 0) // I only want to double every other number, starts doubling with the second-to-last number. I don't want to double the last number.
+            if ((i - 1) % 2 == 0) // Começa a dobrar número sim e número não, a começar pelo penúltimo.
             {
                 if ((currentDigit *= 2) > 9)
                 {
-                    // Separate the number into component parts and then add them together.
+                    // Separa os números acima de 9 em 2 componentes e soma os dois
                     let trailingNumber = currentDigit % 10;
                     let firstNumber = parseInt(currentDigit / 10);
 
-                    // If currentDigit was 18 then currentDigit is now 9.
+                    // soma os dois números do resultado (ex: 1+0 = 1)
                     currentDigit = firstNumber + trailingNumber;
                 }
             }
@@ -58,15 +58,15 @@ const validateCC = () => {
     const elCCValidation = document.getElementById('ccValidator');
     let message = "";
 
-    // Calls the Luhn algorithm. Fails if the Luhn algorithm returns false.
+    // Chama o algoritmo de Luhn.
     if( validator(elCCNumber.value) )
         message = "Cartão de Crédito Válido!";
     else
         message = "Cartão de Crédito Inválido.";
     
-    // Initialize the display textbox with content.
+    // Caixa de texto com conteúdo
     elCCValidation.textContent = message;
-    // Clear the credit card field.
+    // Limpa o campo de cartão de crédito
     elCCNumber.value = null;
 
 validator.mastify
