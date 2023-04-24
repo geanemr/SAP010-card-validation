@@ -4,7 +4,7 @@ const validator = (ccNumber) => {
 
     if(length % 2 == 0)
     {
-        /** Percorre todo o número d CC.
+        /** Percorre todo o número do CC.
          *  Depois começa a dobrar a partir do primeiro número.
         */
         for(let i = 0; i < length; i++)
@@ -52,22 +52,3 @@ const validator = (ccNumber) => {
 
     return (count % 10) === 0;
 }
-
-const validateCC = () => {
-    const elCCNumber = document.getElementById('ccNumber');
-    const elCCValidation = document.getElementById('ccValidator');
-    let message = "";
-
-    // Chama o algoritmo de Luhn.
-    if( validator(elCCNumber.value) )
-        message = "Cartão de Crédito Válido!";
-    else
-        message = "Cartão de Crédito Inválido.";
-    
-    // Caixa de texto com conteúdo
-    elCCValidation.textContent = message;
-    // Limpa o campo de cartão de crédito
-    elCCNumber.value = null;
-
-validator.mastify
-};
