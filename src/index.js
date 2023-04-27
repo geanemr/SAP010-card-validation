@@ -14,3 +14,4 @@ const validateCC = () => {
     // Limpa o campo de cartão de crédito
     elCCNumber.value = null;
 }
+

@@ -1,2 +1,21 @@
+body{
+    background-color: blueviolet;
+}
 
-    
+#btn1{
+    color: hotpink;
+}
+
+.ccvalidator{ 
+    text-align: center;
+    background-position: center;
+}
+
+.ccvalidator0{
+    text-align: center;
+}
+
+#pinkcc{
+    position: relative;
+    text-align: center;
+}

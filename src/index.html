@@ -9,16 +9,17 @@
 </head>
 </head>
 <body>
-  <div>
-    <p>Para efetuar a assinatura, digite o número do seu cartão de crédito:</p>
+  <div class="ccvalidator0">
+    <h1>Validador de Cartão de Crédito</h1>
+    <p>Insira o número do seu cartão e em seguida clique em "validar":</p>
     <input id="ccNumber" placeholder="0000000000000000" maxlength="16"/>
   </div>
 
-  <div>
+  <div class="ccvalidator">
    <p><input type="button" value="Validar" onClick="validateCC()"/></p>
   </div>
 
-  <div>
+  <div class="ccvalidator">
     <label for="ccValidator" class="form-label"></label>
     <textarea disabled="true" id="ccValidator"></textarea>
   </div>
