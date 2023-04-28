@@ -1,17 +1,27 @@
-const validateCC = () => {
-    const elCCNumber = document.getElementById('ccNumber');
-    const elCCValidation = document.getElementById('ccValidator');
-    let message = "";
+import validator from './validator.js';
 
-    // Chama o algoritmo de Luhn.
-    if( validator(elCCNumber.value) )
-        message = "Cartão de Crédito Válido!";
-    else
-        message = "Cartão de Crédito Inválido.";
+const btn = document.getElementById("btn");
+btn.addEventListener('click',start);
+
+function start(){
+  const numC = document.getElementById('ccNumber').value;
+  const alert = document.getElementById ('result');
+
+  const res = validator.isValid(numC);
+  const mask = validator.maskify(numC);
     
-    // Caixa de texto com conteúdo
-    elCCValidation.textContent = message;
-    // Limpa o campo de cartão de crédito
-    elCCNumber.value = null;
+  if (numC === ""){
+    alert.innerHTML = "Insira um valor";
+  }
+
+  else if(res === true){
+    alert.innerText = "Cartão Válido!"
+  }
+
+  else{
+    alert.innerText = "Cartão inválido."
+  }
+
 }
+
 

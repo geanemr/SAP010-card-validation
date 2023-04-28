@@ -9,22 +9,38 @@
 </head>
 </head>
 <body>
-  <div class="ccvalidator0">
-    <h1>Validador de Cartão de Crédito</h1>
-    <p>Insira o número do seu cartão e em seguida clique em "validar":</p>
-    <input id="ccNumber" placeholder="0000000000000000" maxlength="16"/>
-  </div>
+  <div class="title">
+    <h1> MediTerapia </h1>
+    <h2> A sua plataforma de meditação</h2>
+    <h2> MÚSICAS | HISTÓRIAS PARA DORMIR | ASMR | YOGA </h2>
+    <p> Assinando a nossa plataforma você tem acesso centenas de programas de meditação, músicas e histórias para dormir</p>
+    <img src="img/yoga-2176668_960_720.3.jpg">
+    <h2>Comece a sua avaliação gratuita por 7 dias:</h2>
 
-  <div class="ccvalidator">
-   <p><input type="button" value="Validar" onClick="validateCC()"/></p>
-  </div>
-
-  <div class="ccvalidator">
-    <label for="ccValidator" class="form-label"></label>
-    <textarea disabled="true" id="ccValidator"></textarea>
-  </div>
+    <form class="checkout">
+      <div class="checkout-header">
+        <h1 class="checkout-title">
+         
+          Insira os dados do cartão:
+        </h1>
+      </div>
+      
+        <input type="text" class="checkout-input checkout-name" placeholder="Nome">
+        <input type="text" class="checkout-input checkout-exp" placeholder="MM">
+        <input type="text" class="checkout-input checkout-exp" placeholder="YY">
+      </p>
+      <p>
+        <input type="text" id="ccNumber" class="checkout-input checkout-card" placeholder="0000000000000000" maxlength="16">
+        <input type="text" class="checkout-input checkout-cvc" placeholder="CVC">
+      </p>
+      <p>
+        <button class="checkout-btn" id="btn">Finalizar a Compra</button>
+        <p id="result"></p>
+        
+      </p>
+    </form>
   
-  <script type="text/javascript" src="validator.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+ 
+  <script src="index.js" type="module"></script> <!-- inseri type="module" depois de dica no slack, mas ainda não funcionou, verificar ->
 </body>
 </html>
