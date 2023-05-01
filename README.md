@@ -26,7 +26,9 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 ## 2. Resumo do projeto
 
 Neste projeto, foi criado um aplicativo da Web que permite ao usuário
-validar o número de um cartão de crédito.  Uma das funcionalidades do site é que ele oculta os dígitos do cartão digitado, exceto os quatro últimos.
+validar o número de um cartão de crédito.  Uma das funcionalidades do site é que ele oculta os dígitos do cartão digitado, exceto os quatro últimos:
+
+![captura de tela do site](src/img/card%20validation.png)
 
 O tema ecolhido foi um site de meditações que oferece músicas, histórias para dormir, ASMR e conteúdos para 
 praticantes de YOGA. O site possui uma assinatura mensal e oferece um teste gratuito de 7 dias. Para começar
