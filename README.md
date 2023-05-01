@@ -50,4 +50,4 @@ Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, i
 
 O _boilerplate_ contém esta estrutura:
 
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
+  * [Site oficial do GitHub Pages](https://geanemr.github.io/SAP010-card-validation/)
