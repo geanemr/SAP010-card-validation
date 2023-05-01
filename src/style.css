@@ -7,7 +7,7 @@
 .checkout {
   position: absolute;
   display: block;
-  position: b;
+  position: fixed;
   text-align: center;
   color: #7f889e;
 }
