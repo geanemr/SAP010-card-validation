@@ -48,6 +48,4 @@ Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, i
 * Aprender sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
 * Implementar controle de versão com git (e a plataforma github)
 
-O _boilerplate_ contém esta estrutura:
-
   * [Site oficial do GitHub Pages](https://geanemr.github.io/SAP010-card-validation/)
