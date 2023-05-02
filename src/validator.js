@@ -6,10 +6,10 @@ const validator = {
       const numCard = parseInt(ccNumber[i]); /* A função parseInt converte seu primeiro argumento para uma string, analisa, e retorna um inteiro ou NaN*/
       newArray.push(numCard);} /* O método push adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array.*/
 
-   // Depois, inverte a ordem dos números:
+    // Depois, inverte a ordem dos números:
     const ccReversed = newArray.reverse(); /*a nova variável receberá a string que será revertida. */
 
-  /*Agora precisamos encontrar os números nas posições pares, somá-los e, se der um resultado maior
+    /*Agora precisamos encontrar os números nas posições pares, somá-los e, se der um resultado maior
     que 9, devemos separar os dígitos e subtrair 9. Ex = 6 x 2 = 12; 1+2 = 3 (este é o resultado que queremos);
     logo, faremos 12 - 9, que chegará no resultado esperado, 3 (soma dos dígitos). */
 
@@ -45,7 +45,7 @@ const validator = {
 
     const masked =
     maskCCNumber.join(""); // O método join() junta todos os elementos de um array em uma string e retorna esta string. Aqui juntamos os 4 mascarados novamente pra sequência de dígitos.
-  return masked; 
+    return masked; 
   },
 };
 
