@@ -31,8 +31,7 @@ validar o número de um cartão de crédito.  Uma das funcionalidades do site é
 ![captura de tela do site](src/img/card%20validation.png)
 
 O tema ecolhido foi um site de meditações que oferece músicas, histórias para dormir, ASMR e conteúdos para 
-praticantes de YOGA. O site possui uma assinatura mensal e oferece um teste gratuito de 7 dias. Para começar
-o teste, o usuário deve inserir o número do seu cartão de crédito. Caso os dígitos inseridos pelo usuário
+praticantes de YOGA, chamado MediTerapia. O site possui uma assinatura mensal e oferece um teste gratuito de 7 dias. Para começar a validação, o usuário deve inserir o número do seu cartão de crédito. Caso os dígitos inseridos pelo usuário
 sejam correspondentes ao de um cartão de crédito válido, segundo o Algorítmo de Luhn, o site informará o usuário que trata-se de um cartão válido. Caso contrário, informará que trata-se de um cartão inválido. Caso o usuário não informe nenhum número de cartão de crédito e tente iniciar sua assinatura gratuita clicando no botão "Iniciar período de avaliação",será solicitada a inserção do número do cartão:
 
  ![captura de tela do site - insira número](src/img/card%20validation%20-%20insira%20n%C3%BAmero.png) 
