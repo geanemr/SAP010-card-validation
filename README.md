@@ -4,6 +4,8 @@
 
 * [1. Introdução](#1-Introdução)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Objetivos gerais do projeto](#3-os-objetivos-gerais-deste-projeto-foram-os-seguintes)
+* [4. Desenvolvedora](#4-desenvolvedora)
 
 ***
 
@@ -25,8 +27,7 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
-Neste projeto, foi criado um aplicativo da Web que permite ao usuário
-validar o número de um cartão de crédito.  Uma das funcionalidades do site é que ele oculta os dígitos do cartão digitado, exceto os quatro últimos:
+Neste projeto, foi criado um aplicativo da Web que permite ao usuário validar o número de um cartão de crédito.  Uma das funcionalidades do site é que ele oculta os dígitos do cartão digitado quando se trata de um cartão válido, exceto os quatro últimos dígitos:
 
 ![captura de tela do site](src/img/card%20validation.png)
 
@@ -38,7 +39,7 @@ sejam correspondentes ao de um cartão de crédito válido, segundo o Algorítmo
 
 Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, incluindo conceitos como variáveis, condicionais e funções, bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
 
-### Os objetivos gerais deste projeto foram os seguintes
+## 3. Os objetivos gerais deste projeto foram os seguintes
 
 * Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
   pastas (através de módulos em JS).
@@ -47,4 +48,14 @@ Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, i
 * Aprender sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
 * Implementar controle de versão com git (e a plataforma github)
 
-  * [Site oficial do GitHub Pages](https://geanemr.github.io/SAP010-card-validation/)
+  * Para acessar o site do projeto, [Clique aqui](https://geanemr.github.io/SAP010-card-validation/)
+
+## 4. Desenvolvedora
+
+Geane Ramos
+
+[![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white://github.com/geanemr)](https://github.com/geanemr)
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white://linkedin.com/in/geane-moraes-ramos)](https://www.linkedin.com/in/geane-moraes-ramos/)
+
+
