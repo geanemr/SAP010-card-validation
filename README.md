@@ -52,9 +52,7 @@ Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, i
 
 ## 4. Desenvolvedora
 
-Geane Ramos
-
-[![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white://github.com/geanemr)](https://github.com/geanemr)
+[Geane Ramos](https://github.com/geanemr)
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white://linkedin.com/in/geane-moraes-ramos)](https://www.linkedin.com/in/geane-moraes-ramos/)
 
