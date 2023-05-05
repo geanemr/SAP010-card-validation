@@ -36,9 +36,9 @@ const validator = {
     const maskCCNumber = []; /* Este array vazio irá receber os dados informados. */
     for (let i = 0; i < ccNumber.length;i++) { /* Percorre todo o número do CC.*/ 
       if (i < ccNumber.length - 4) { /*os 4 últimos dígitos informados pelo usuário serão isolados. */
-        maskCCNumber.push("#") /* os dígitos serão substituídos por "#". */
+        maskCCNumber.push("#") /* os demais dígitos serão substituídos por "#". */
       } else {
-        maskCCNumber.push(ccNumber[i]); /*mantém os demais números sem "#". */
+        maskCCNumber.push(ccNumber[i]); /*mantém os últimos 4 números sem "#". */
       }  
     }
 
