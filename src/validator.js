@@ -31,7 +31,7 @@ const validator = {
       return false; /* Se a soma total for divisível por 10, retorna verdadeiro. Senão, retorna falso. */
     }
   },
-  //Na função maskify, será feita a substituição dos 4 últimos números por "#":
+  //Na função maskify, será feita a substituição dos números por "#", exceto os 4 últimos:
   maskify(ccNumber) {
     const maskCCNumber = []; /* Este array vazio irá receber os dados informados. */
     for (let i = 0; i < ccNumber.length;i++) { /* Percorre todo o número do CC.*/ 
