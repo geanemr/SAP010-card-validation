@@ -13,7 +13,7 @@ const validator = {
     que 9, devemos subtrair 9 do resultado. Ex = 6 x 2 = 12; 1+2 = 3 (este é o resultado que queremos no array); logo, faremos 12 - 9, que chegará no resultado esperado, 3 (soma dos dígitos). */
 
     for (let i = 0; i < ccReversed.length; i++) {
-      if ((i + 1) % 2 === 0) { /*Começa a multiplicar por dois a partir do segundo dígito. */ 
+      if ((i + 1) % 2 === 0) { /*Seleciona os números nas posições pares. */ 
         ccReversed[i] = ccReversed[i] * 2; } /* Aqui começa a multiplicação por 2 dos números nas posições pares.*/
       
       if (ccReversed[i] >= 10) {
