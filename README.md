@@ -50,11 +50,11 @@ Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, i
 
 ## 4. Objetivos alcançados
 
- [✔] Possui uma interface que permite ao usuário permita ao usuário validar o número de um cartão de crédito e ocultar todos os dígitos de um cartão e ocultar o número até os 4 últimos dígitos;
+ [✔] Possui uma interface que permite ao usuário validar o número de um cartão de crédito e ocultar o número até os 4 últimos dígitos;
 
  [✔] Projeto entregue incluindo testes unitários;
 
- [✔] projeto entregue livre de erros de eslint;
+ [✔] Projeto entregue livre de erros de eslint;
 
  [✔] Código entregue no GitHub;
 
