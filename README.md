@@ -4,8 +4,10 @@
 
 * [1. Introdução](#1-Introdução)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos gerais do projeto](#3-os-objetivos-gerais-deste-projeto-foram-os-seguintes)
-* [4. Desenvolvedora](#4-desenvolvedora)
+* [3. Testes unitários](#3-testes-unitários)
+* [4. Objetivos alcançados](#4-objetivos-alcançados)
+* [5. Tecnologias utilizadas](#5-tecnologias-utilizadas)
+* [6. Desenvolvedora](#6-desenvolvedora)
 
 ***
 
@@ -25,6 +27,7 @@ seus dígitos finais for um múltiplo de 10.
 ![gráfico do algoritmo de
 Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
+
 ## 2. Resumo do projeto
 
 Neste projeto, foi criado um aplicativo da Web que permite ao usuário validar o número de um cartão de crédito.  Uma das funcionalidades do site é que ele oculta os dígitos do cartão digitado quando se trata de um cartão válido, exceto os quatro últimos dígitos:
@@ -39,21 +42,42 @@ sejam correspondentes ao de um cartão de crédito válido, segundo o Algorítmo
 
 Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, incluindo conceitos como variáveis, condicionais e funções, bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
 
-## 3. Os objetivos gerais deste projeto foram os seguintes
 
-* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
-  pastas (através de módulos em JS).
-* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
-  unitários).
-* Aprender sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
-* Implementar controle de versão com git (e a plataforma github)
+## 3. Testes unitários
+[✔] Testes realizados com sucesso:
+![Alt text](src/img/testes%20unit%C3%A1rios.png)
 
-  * Para acessar o site do projeto, [Clique aqui](https://geanemr.github.io/SAP010-card-validation/)
 
-## 4. Desenvolvedora
+## 4. Objetivos alcançados
+
+ [✔] Possui uma interface que permite ao usuário permita ao usuário validar o número de um cartão de crédito e ocultar todos os dígitos de um cartão e ocultar o número até os 4 últimos dígitos;
+
+ [✔] Projeto entregue incluindo testes unitários;
+
+ [✔] projeto entregue livre de erros de eslint;
+
+ [✔] Código entregue no GitHub;
+
+ [✔] Interface implantada usando o GitHub Pages;
+
+ [✔] O README contém uma definição de produto. 
+ 
+ Para acessar o site do projeto, [clique aqui](https://geanemr.github.io/SAP010-card-validation/)
+
+
+## 5. Tecnologias utilizadas
+
+* [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&link=https)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) 
+
+* [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&link=https)](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) 
+
+* [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&link=https)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+
+
+## 6. Desenvolvedora
 
 Geane Ramos
 
-[![Geane](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https)](https://github.com/geanemr)  [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/geane-moraes-ramos)](https://www.linkedin.com/in/geane-moraes-ramos/)
+[![Github](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https)](https://github.com/geanemr)  [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/geane-moraes-ramos)](https://www.linkedin.com/in/geane-moraes-ramos/)
 
 
