@@ -133,7 +133,9 @@ color: #7A8B8B;
 
 @media only screen and (max-width: 767px) {
   footer {
-    position: static; 
+    position: static;
+    background-color:lightpink;
+
   }
 }
 
