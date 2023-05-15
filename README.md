@@ -73,6 +73,10 @@ Para criação deste projetos, foram trabalhados os fundamentos do JavaScript, i
 
 * [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&link=https)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 
+* [![GIT](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white&link=https)](https://git-scm.com/)
+
+* [![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https)](https://github.com/)
+
 
 ## 6. Desenvolvedora
 
