@@ -19,7 +19,7 @@ números de identificação, como o IMEI de telefones celulares, cartões de cr�
 etc.
 
 Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que
-contém apenas dígitos [0-9]); todos os números que ocupam uma posição par devem
+contém apenas dígitos [0-9]);todos os números que ocupam uma posição ímpar (considerando que a contagem começa em 1) devem
 ser multiplicados por dois; se esse número for maior ou igual a 10, devemos
 adicionar os dígitos do resultado; o número a verificar será válido se a soma de
 seus dígitos finais for um múltiplo de 10.
