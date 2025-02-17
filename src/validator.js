@@ -1,24 +1,23 @@
 const validator = {
-  isValid(ccNumber) {
+  isValid(value) {
     const newArray = [];
-    for (let i = 0; i < ccNumber.length; i++) {
-      newArray.push(numCard);
+    for (let i = 0; i < value.length; i++) {
+      newArray.push(parseInt(value[i], 10));
     }
-    const ccReversed = newArray.reverse();
+    const reversedArray = newArray.reverse();
 
-    for (let i = 0; i < ccReversed.length; i++) {
+    for (let i = 0; i < reversedArray.length; i++) {
       if ((i + 1) % 2 === 0) {
-        ccReversed[i] = ccReversed[i] * 2;
-      }
-
-      if (ccReversed[i] >= 10) {
-        ccReversed[i] = ccReversed[i] - 9;
+        reversedArray[i] = reversedArray[i] * 2;
+        if (reversedArray[i] > 9) {
+          reversedArray[i] -= 9;
+        }
       }
     }
 
     let totalSum = 0;
-    for (let i = 0; i < ccReversed.length; i++) {
-      totalSum = totalSum + ccReversed[i];
+    for (let i = 0; i < reversedArray.length; i++) {
+      totalSum += reversedArray[i];
     }
 
     if (totalSum % 10 === 0) {
@@ -28,17 +27,17 @@ const validator = {
     }
   },
 
-  maskify(ccNumber) {
-    const maskCCNumber = [];
-    for (let i = 0; i < ccNumber.length; i++) {
-      if (i < ccNumber.length - 4) {
-        maskCCNumber.push("#");
+  maskify(value) {
+    const maskedValue = [];
+    for (let i = 0; i < value.length; i++) {
+      if (i < value.length - 4) {
+        maskedValue.push("#");
       } else {
-        maskCCNumber.push(ccNumber[i]);
+        maskedValue.push(value[i]);
       }
     }
 
-    const masked = maskCCNumber.join("");
+    const masked = maskedValue.join("");
     return masked;
   },
 };
