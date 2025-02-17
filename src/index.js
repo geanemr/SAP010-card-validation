@@ -1,20 +1,20 @@
 import validator from "./validator.js";
 
-const btn = document.getElementById("btn");
-btn.addEventListener("click", start);
+const button = document.getElementById("btn");
+button.addEventListener("click", onClick);
 
-function start(event) {
+function onClick(event) {
   event.preventDefault();
-  const numC = document.getElementById("ccNumber").value;
+  const creditCardValue = document.getElementById("credit-card-number").value;
   const alert = document.getElementById("result");
 
-  const res = validator.isValid(numC);
-  const mask = validator.maskify(numC);
+  const res = validator.isValid(creditCardValue);
+  const mask = validator.maskify(creditCardValue);
 
-  if (numC === "") {
+  if (creditCardValue === "") {
     alert.innerHTML = "Insira o número do cartão";
   } else if (res === true) {
-    alert.innerText = `O número do cartão ${mask} é Válido!`;
+    alert.innerText = `O número do cartão ${mask} é válido!`;
   } else {
     alert.innerText = "Cartão inválido.";
   }
